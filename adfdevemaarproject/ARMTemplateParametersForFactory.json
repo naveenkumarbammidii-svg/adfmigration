@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevemaarproject"
+		},
+		"LS_LOOKUPMAXVALUE_password": {
+			"value": ""
+		},
+		"LS_MASLOOKUPVALUE_password": {
+			"value": ""
+		},
+		"LS_OnPrem_SqlServer_DW_password": {
+			"value": ""
+		},
+		"LS_SqlTable_Parquet1_accountKey": {
+			"value": ""
+		},
+		"lS_LOOKUPSQl_password": {
+			"value": ""
+		},
+		"LS_LOOKUPMAXVALUE_properties_typeProperties_server": {
+			"value": "DESKTOP-8T34EC4\\SQLEXPRESS"
+		},
+		"LS_LOOKUPMAXVALUE_properties_typeProperties_database": {
+			"value": "Sqlmigration"
+		},
+		"LS_LOOKUPMAXVALUE_properties_typeProperties_userName": {
+			"value": "Naveen"
+		},
+		"LS_MASLOOKUPVALUE_properties_typeProperties_server": {
+			"value": "DESKTOP-8T34EC4\\SQLEXPRESS"
+		},
+		"LS_MASLOOKUPVALUE_properties_typeProperties_database": {
+			"value": "Sqlmigration"
+		},
+		"LS_MASLOOKUPVALUE_properties_typeProperties_userName": {
+			"value": "Naveen"
+		},
+		"LS_OnPrem_SqlServer_DW_properties_typeProperties_server": {
+			"value": "DESKTOP-8T34EC4\\SQLEXPRESS"
+		},
+		"LS_OnPrem_SqlServer_DW_properties_typeProperties_database": {
+			"value": "Sqlmigration"
+		},
+		"LS_OnPrem_SqlServer_DW_properties_typeProperties_userName": {
+			"value": "Naveen"
+		},
+		"LS_SqlTable_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevemaarproject.dfs.core.windows.net/"
+		},
+		"lS_LOOKUPSQl_properties_typeProperties_server": {
+			"value": "DESKTOP-8T34EC4\\SQLEXPRESS"
+		},
+		"lS_LOOKUPSQl_properties_typeProperties_database": {
+			"value": "Sqlmigration"
+		},
+		"lS_LOOKUPSQl_properties_typeProperties_userName": {
+			"value": "Naveen"
+		}
+	}
+}
