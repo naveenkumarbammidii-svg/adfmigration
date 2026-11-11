@@ -1,0 +1,15 @@
+{
+	"name": "adfdevemaarproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f7d16c85-5b4d-4ebd-aa4b-13bec2246d12",
+		"tenantId": "e5bed6ba-ed3b-438c-9e9b-4b8d8fb6fab2"
+	}
+}

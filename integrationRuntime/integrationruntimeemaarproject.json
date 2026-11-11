@@ -1,0 +1,6 @@
+{
+	"name": "integrationruntimeemaarproject",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

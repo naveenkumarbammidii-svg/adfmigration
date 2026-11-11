@@ -1,0 +1,21 @@
+{
+	"name": "lS_LOOKUPSQl",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-8T34EC4\\SQLEXPRESS",
+			"database": "Sqlmigration",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Naveen",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxN2JhM2YzYy1kZTU3LTQwMDAtODM2Ni0wOTViMzk3ZGM3N2IiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationruntimeemaarproject",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "LS_LOOKUPMAXVALUE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-8T34EC4\\SQLEXPRESS",
+			"database": "Sqlmigration",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Naveen",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlZWFmZTg0Zi0zZGQ1LTQ0M2UtOTJmMy1lZDg5NDA1MzcyYzAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationruntimeemaarproject",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
